@@ -1,0 +1,11 @@
+{
+  "name": "seo-blog-writer",
+  "description": "Research and write SEO-optimized blog posts with keyword research, competitor analysis, content calendars, and automated image generation",
+  "version": "0.1.0",
+  "author": {
+    "name": "kbanta11"
+  },
+  "repository": "https://github.com/kbanta11/kbanta11-claude-tools",
+  "license": "MIT",
+  "keywords": ["seo", "blog", "content", "writing", "keyword-research", "content-calendar"]
+}
