@@ -133,8 +133,9 @@ Apply fixes for every flagged item. Follow these rewrite rules strictly.
 ### Citation Formatting
 
 - **Mid-sentence citations**: leave as inline markdown links (no change)
-- **End-of-sentence/paragraph citations**: wrap in parentheses. Example: `...showed a 40% improvement ([Stanford Research](https://example.com)).`
-- Do not change anchor text or URLs — only adjust the wrapping punctuation.
+- **End-of-sentence citations**: wrap in parentheses. Example: `...showed a 40% improvement ([Stanford Research](https://example.com)).`
+- **Standalone citation "sentences"**: when a citation sits alone as its own sentence after the claim it supports (e.g., `...end of sentence. [Source Name](url).`), attach it to the preceding sentence in parentheses: `...end of sentence ([Source Name](url)).` A citation is never a sentence by itself.
+- Do not change anchor text or URLs — only adjust the wrapping and placement.
 
 ## Save and Commit
 
