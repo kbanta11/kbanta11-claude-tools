@@ -8,7 +8,7 @@
     {
       "name": "seo-blog-writer",
       "description": "Research and write SEO-optimized blog posts with keyword research, competitor analysis, content calendars, and automated image generation",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "source": "./",
       "author": {
         "name": "kbanta11"
