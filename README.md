@@ -12,6 +12,7 @@ A Claude Code plugin for researching and writing SEO-optimized blog posts. Proje
 | `seo-outline` | Post structure planning with keyword, CTA, and image placement |
 | `seo-draft` | Full post writing on a dedicated git branch |
 | `seo-images` | AI image generation via OpenRouter, placeholder replacement |
+| `seo-humanize` | Multi-pass AI fingerprint removal — detects and rewrites AI writing patterns while preserving voice |
 | `seo-finalize` | Source verification, SEO checks, markdown validation, finalization |
 
 ## Workflow
@@ -19,7 +20,7 @@ A Claude Code plugin for researching and writing SEO-optimized blog posts. Proje
 ```
 seo-setup (once per project)
     |
-seo-calendar --> pick a topic --> seo-research --> seo-outline --> seo-draft --> seo-images --> seo-finalize
+seo-calendar --> pick a topic --> seo-research --> seo-outline --> seo-draft --> seo-images --> seo-humanize --> seo-finalize
                                                                     |                            |
                                                                     |--- creates blog branch -----|--- ready for review
 ```
